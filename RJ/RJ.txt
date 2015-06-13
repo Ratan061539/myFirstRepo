@@ -1,0 +1,32 @@
+Learning Git.
+
+Looks like am wasting time..
+
+First create new GIT in GIT HUB.
+Then Create a Folder with same name in local PC
+Navigate to the folder using git.
+
+git init
+
+-- Creates a .git folder in the working directory
+
+git add .
+-- adds all files 
+
+git add -u
+-- Considers all files for version tracking
+
+git status
+-- Shows the status as which files are newly added / modified compared to last git commit.
+
+git commit -m "message as in description"
+--Commits code locally with this message
+
+git remote add origin https://github.com/Ratan061539/myFirstRepo.git
+--This now connects your local git to the one acct
+
+git push origin master
+--pushes the local code on github.
+
+git clone https://github.com/Ratan061539/myFirstRepo.git
+Clones or Copies this repository on your local pc in working drctry
